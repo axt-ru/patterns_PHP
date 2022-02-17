@@ -21,7 +21,7 @@ abstract class DataBaseFactory
 }
 
 /**
- * Конкретная Фабрика производит семейство значений одной вариации для каждой СУБД.
+ * Конкретная Фабрика производит семейство значений для каждой СУБД.
  */
 class MySQLFactory extends DataBaseFactory
 {
